@@ -2,7 +2,7 @@
 # VOGUEON- Fashion Trends & Model Showcase 
 
 ## 🌟 Project Description  
-**VOGUEON** is a visually captivating fashion showcase that highlights top models and the latest trends. Designed with an emphasis on modern and stylish user interface. Users can explore high-fashion visuals, interactive elements, and a dynamic presentation of fashion-forward content. The project seamlessly integrates cutting-edge web technologies to deliver an engaging and stylish interface.
+**VOGUEON** is a visually captivating website showcasing fashion, models, and the latest fashion trends. It is designed with an emphasis on a modern and stylish user interface. Users can explore high-fashion visuals, interactive elements, and a dynamic presentation of fashion-forward content. 
 
 ## 🚀 Features  
 ✅ **Fully Responsive**
