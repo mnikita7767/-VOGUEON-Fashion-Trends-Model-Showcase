@@ -13,4 +13,4 @@
 ## 🛠 Tech Stack  
 🔹 **Frontend** – HTML, CSS, JS 
 
-Link: https://mnikita7767.github.io/-VOGUEON-Fashion-Trends-Model-Showcase/
+Link: https://mnikita7767.github.io/VOGUEON-Fashion-Trends-Model-Showcase/
