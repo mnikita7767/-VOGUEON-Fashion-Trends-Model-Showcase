@@ -64,10 +64,10 @@ html,body {
   padding-inline: 2rem;
   display: none;
 }
-.nav-bar .nav-list .nav-toggle a{
-  font-size: 1.6rem;
+.nav-bar .nav-list .nav-toggle a svg {
+  width: 25px;
+  height: 25px;
   color: #fff;
-  font-weight:100;
 }
 /* -------------Media Queries of Navigation Section------------------ */
 @media (max-width: 1000px) {
