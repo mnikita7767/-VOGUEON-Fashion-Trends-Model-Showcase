@@ -313,7 +313,6 @@ html,body {
 }
 /* -------Fashion and Beauty Section---------- */
 .FB-videos-sections {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("https://i.pinimg.com/736x/d8/1f/9d/d81f9da8455592a8d575c8807b9a59e4.jpg");
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
   gap: 1rem;
