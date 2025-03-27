@@ -1,306 +1,506 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VOGUEON - Explore Top Models & Latest Fashion Trends</title>
-    <meta name="description" content="Discover the latest fashion trends, top models, and exclusive showcases at VOGUEON. Stay ahead in the world of fashion.">
-    <meta name="keywords" content="fashion, models, latest trends, vogue, showcase">
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Montserrat:wght@100..900&family=Abril+Fatface&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Montserrat:wght@100..900&family=Abril+Fatface&display=swap"></noscript>
-</head>
-<body>
+    <meta
+      name="description"
+      content="Discover the latest fashion trends, top models, and exclusive showcases at VOGUEON. Stay ahead in the world of fashion."
+    />
+    <meta
+      name="keywords"
+      content="fashion, models, latest trends, vogue, showcase"
+    />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+    <link
+      rel="preload"
+      href="assets/css/style.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Montserrat:wght@100..900&family=Abril+Fatface&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Montserrat:wght@100..900&family=Abril+Fatface&display=swap"
+    /></noscript>
+  </head>
+  <body>
     <div class="main-container">
-        <header>
-            <nav class="nav-bar">
-                <h1 class="logo">VOGUEON</h1>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Top Models</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Latest Trends</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Showcase</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#">Fashion & Beauty</a>
-                    </li>
-                    <li class="nav-toggle">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0,0,256,256">
-                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M3,9c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,24c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,39c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z"></path></g></g>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        
-        <main>
-            <section class="hero-section">
-                <div class="hero-video-container">
-                    <video autoplay loop muted  playsinline class="hero-video">
-                        <source src="assets/videos/heroVideo.webm" type="video/webm">
-                        <source src="assets/videos/heroVideo.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-            </section>
+      <header>
+        <nav class="nav-bar">
+          <h1 class="logo">VOGUEON</h1>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Top Models</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Latest Trends</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Showcase</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Fashion & Beauty</a>
+            </li>
+            <li class="nav-toggle">
+              <a href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  viewBox="0,0,256,256"
+                >
+                  <g
+                    fill="#ffffff"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                    stroke-miterlimit="10"
+                    stroke-dasharray=""
+                    stroke-dashoffset="0"
+                    font-family="none"
+                    font-weight="none"
+                    font-size="none"
+                    text-anchor="none"
+                    style="mix-blend-mode: normal"
+                  >
+                    <g transform="scale(5.12,5.12)">
+                      <path
+                        d="M3,9c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,24c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,39c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-            <!-----top Models Section----->
-            <section class="top-model-section">
-                <h2 class="section-title">Our Top Models</h2>
-                <div class="top-model-image-container">
-                    <img src="assets/images/model-image1.webp" alt="model-image" class="model-image">
-                    <img src="assets/images/model-image2.webp" alt="model-image" class="model-image">
-                    <img src="assets/images/model-image3.webp" alt="model-image" class="model-image">
-                    <img src="assets/images/model-image4.webp" alt="model-image" class="model-image">
-                    <img src="assets/images/model-image5.webp" alt="model-image" class="model-image"> 
-                    <img src="assets/images/model-image6.webp" alt="model-image" class="model-image">           
-                    <img src="assets/images/model-image7.webp" alt="model-image" class="model-image">
-                    <img src="assets/images/model-image8.webp" alt="model-image" class="model-image">
-                 </div>            
-            </section> 
+      <main>
+        <section class="hero-section">
+          <div class="hero-video-container">
+            <video autoplay loop muted playsinline class="hero-video">
+              <source src="assets/videos/heroVideo.webm" type="video/webm" />
+              <source src="assets/videos/heroVideo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
 
-            <!-- -------Latest Trends Section----------------->
-            <section class="latest-trends-section">
-                <h2 class="section-title">Latest Trends</h2>
-                <div class="latest-trends--cards-container">
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Ethical Fashion</h3>
-                        <p class="LT-para">We follow ethical fashion to ensure sustainability and fairness, reducing environmental impact and supporting ethical labor practices for a more responsible and compassionate industry.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Gender Fluidity</h3>
-                        <p class="LT-para">We embrace gender fluidity to celebrate individuality and inclusivity, allowing everyone to express themselves authentically. Our commitment fosters a diverse and accepting fashion environment.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Bold Prints</h3>
-                        <p class="LT-para">We embrace bold prints to make powerful statements and express creativity. Our designs use vibrant patterns to create dynamic, eye-catching fashion that stands out and inspires.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Retro Revival</h3>
-                        <p class="LT-para">We follow retro revival fashion to celebrate timeless styles and nostalgia, blending classic designs with modern elements to create unique, memorable, and stylish looks.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Experimental</h3>
-                        <p class="LT-para">We embrace retro experimental fashion to blend nostalgic styles with innovative designs, creating unique and bold looks that push boundaries while honoring classic influences.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Digital Models</h3>
-                        <p class="LT-para">We follow retro digital model fashion to merge vintage aesthetics with cutting-edge technology, creating a fusion of classic style and digital innovation for a unique, modern look.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Tech-Enhanced</h3>
-                        <p class="LT-para">We follow tech-enhanced fashion to integrate advanced technologies with style, creating innovative garments that blend functionality with modern design for a futuristic, high-performance wardrobe.</p>
-                    </div>
-                    <div class="latest-trends--cards">
-                        <h3 class="LT-cards-heading">Minimalism</h3>
-                        <p class="LT-para">We embrace minimalism fashion for its clean lines and timeless elegance, focusing on simplicity and quality to create sophisticated, versatile pieces that stand out with understated style. </p>
-                    </div>
-                </div>
-            </section>
-        
-            <!-----------Showcase Section-------------->
-            <section class="showcase-section">
-                <div class="animated-text-container">
-                    <h2 class="animated-text">| Brand Collaboration | Fashion | Runway | shoots | Beauty | Street Style | Magazines Covers | Lifestyle </h2>
-                    <h2 class="animated-text">| Brand Collaboration | Fashion | Runway | shoots | Beauty | Street Style | Magazines Covers | Lifestyle </h2>
-                    <h2 class="animated-text">| Brand Collaboration | Fashion | Runway | shoots | Beauty | Street Style | Magazines Covers | Lifestyle </h2>
-                    <h2 class="animated-text">| Brand Collaboration | Fashion | Runway | shoots | Beauty | Street Style | Magazines Covers | Lifestyle </h2>
-                </div>
-                <div class="showcase-container">
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img1.webp" alt="showcase-image" class="showcase-img" >
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img2.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img3.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img4.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img5.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img6.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img7.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img8.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img9.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img10.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img11.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                    <div class="showcase-grid">
-                        <img src="assets/images/showcase-img12.webp" alt="showcase-image" class="showcase-img">
-                    </div>
-                </div>
-            </section>
-        
-             <!-------Events Section---- -->
-            <section class="events-section">
-                <h2 class="section-title">Modeling Events</h2>
-                <div class="events">
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">10</div>
-                            <div class="Event-day">FRI</div>
-                        </div>
-                        <div class="event-name">Milan Fashion</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">12</div>
-                            <div class="Event-day">SUN</div>
-                        </div>
-                        <div class="event-name">Glamour Night</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">14</div>
-                            <div class="Event-day">TUE</div>
-                        </div>
-                        <div class="event-name">Elegance & Grace</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">15</div>
-                            <div class="Event-day">WED</div>
-                        </div>
-                        <div class="event-name">Summer Collection</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">18</div>
-                            <div class="Event-day">SAT</div>
-                        </div>
-                        <div class="event-name">Runway Revolution</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">20</div>
-                            <div class="Event-day">MON</div>
-                        </div>
-                        <div class="event-name">Traditional Fashion</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">22</div>
-                            <div class="Event-day">WED</div>
-                        </div>
-                        <div class="event-name">Group Runways</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">24</div>
-                            <div class="Event-day">FRI</div>
-                        </div>
-                        <div class="event-name">Ethnic Show</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">25</div>
-                            <div class="Event-day">SAT</div>
-                        </div>
-                        <div class="event-name">Fashion Forward</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">28</div>
-                            <div class="Event-day">TUE</div>
-                        </div>
-                        <div class="event-name">Beachwear Runway</div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">30</div>
-                            <div class="Event-day">THU</div>
-                        </div>
-                        <div class="event-name">Luxury Lingerie </div>
-                    </div>
-                    <div class="events-information">
-                        <div class="event-day--date">
-                            <div class="Event-date">31</div>
-                            <div class="Event-day">FRI</div>
-                        </div>
-                        <div class="event-name">Classic Couture</div>
-                    </div>
-                </div>
-            </section>
+        <!-----top Models Section----->
+        <section class="top-model-section">
+          <h2 class="section-title">Our Top Models</h2>
+          <div class="top-model-image-container">
+            <img
+              src="assets/images/model-image1.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image2.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image3.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image4.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image5.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image6.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image7.webp"
+              alt="model-image"
+              class="model-image"
+            />
+            <img
+              src="assets/images/model-image8.webp"
+              alt="model-image"
+              class="model-image"
+            />
+          </div>
+        </section>
 
-            <!-----Fashion and Beauty Section--------->
-            <section class="fashion-beauty-section">
-                <h2 class="section-title">Fashion & Beauty</h2>
-                <div class="FB-videos-sections">
-                    <video autoplay loop muted  playsinline class="FB-video">
-                        <source src="assets/videos/FB-video-1.webm" type="video/webm">
-                        <source src="assets/videos/FB-video-1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <video autoplay loop muted  playsinline class="FB-video">
-                        <source src="assets/videos/FB-video-2.webm" type="video/webm">
-                        <source src="assets/videos/FB-video-2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <video autoplay loop muted  playsinline class="FB-video">
-                        <source src="assets/videos/FB-video-3.webm" type="video/webm">
-                        <source src="assets/videos/FB-video-3.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <video autoplay loop muted  playsinline class="FB-video">
-                        <source src="assets/videos/FB-video-4.webm" type="video/webm">
-                        <source src="assets/videos/FB-video-4.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>  
-            </section> 
+        <!-- -------Latest Trends Section----------------->
+        <section class="latest-trends-section">
+          <h2 class="section-title">Latest Trends</h2>
+          <div class="latest-trends--cards-container">
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Ethical Fashion</h3>
+              <p class="LT-para">
+                We follow ethical fashion to ensure sustainability and fairness,
+                reducing environmental impact and supporting ethical labor
+                practices for a more responsible and compassionate industry.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Gender Fluidity</h3>
+              <p class="LT-para">
+                We embrace gender fluidity to celebrate individuality and
+                inclusivity, allowing everyone to express themselves
+                authentically. Our commitment fosters a diverse and accepting
+                fashion environment.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Bold Prints</h3>
+              <p class="LT-para">
+                We embrace bold prints to make powerful statements and express
+                creativity. Our designs use vibrant patterns to create dynamic,
+                eye-catching fashion that stands out and inspires.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Retro Revival</h3>
+              <p class="LT-para">
+                We follow retro revival fashion to celebrate timeless styles and
+                nostalgia, blending classic designs with modern elements to
+                create unique, memorable, and stylish looks.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Experimental</h3>
+              <p class="LT-para">
+                We embrace retro experimental fashion to blend nostalgic styles
+                with innovative designs, creating unique and bold looks that
+                push boundaries while honoring classic influences.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Digital Models</h3>
+              <p class="LT-para">
+                We follow retro digital model fashion to merge vintage
+                aesthetics with cutting-edge technology, creating a fusion of
+                classic style and digital innovation for a unique, modern look.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Tech-Enhanced</h3>
+              <p class="LT-para">
+                We follow tech-enhanced fashion to integrate advanced
+                technologies with style, creating innovative garments that blend
+                functionality with modern design for a futuristic,
+                high-performance wardrobe.
+              </p>
+            </div>
+            <div class="latest-trends--cards">
+              <h3 class="LT-cards-heading">Minimalism</h3>
+              <p class="LT-para">
+                We embrace minimalism fashion for its clean lines and timeless
+                elegance, focusing on simplicity and quality to create
+                sophisticated, versatile pieces that stand out with understated
+                style.
+              </p>
+            </div>
+          </div>
+        </section>
 
-            <!-- ---------Contact Us---------- -->
-            <section class="contact-container">
-                <div class="left-contact-container">
-                    <h5 class="contact-title">Be the Face of Tomorrow’s Fashion</h5>
-                    <p class="contact-para">Want to collaborate with us? Whether you're a model, beauty influencer, or fashion icon, we’d love to hear from you! Connect with us and become a part of VogueOn’s exclusive world of style and glamour. Fill out the form. let's connect! This is your chance to be part of something extraordinary. Our team will review your details and reach out to discuss exciting collaboration opportunities. The future of fashion starts with you!</p>
-                </div>
-                <div class="right-contact-container">
-                    <form class="contact-form">
-                        <input type="text" name="name" placeholder="Name" class="contact-field">
-                        <input type="text" name="Contact Number" placeholder="Contact number" class="contact-field">
-                        <input type="email" name="email" placeholder="Email" class="contact-field">
-                        <textarea name="message" placeholder="Message" class="contact-field"></textarea>
-                        <button class="contact-button">Send</button>
-                    </form>
-                </div>
-            </section>
+        <!-----------Showcase Section-------------->
+        <section class="showcase-section">
+          <div class="animated-text-container">
+            <h2 class="animated-text">
+              | Brand Collaboration | Fashion | Runway | shoots | Beauty |
+              Street Style | Magazines Covers | Lifestyle
+            </h2>
+            <h2 class="animated-text">
+              | Brand Collaboration | Fashion | Runway | shoots | Beauty |
+              Street Style | Magazines Covers | Lifestyle
+            </h2>
+            <h2 class="animated-text">
+              | Brand Collaboration | Fashion | Runway | shoots | Beauty |
+              Street Style | Magazines Covers | Lifestyle
+            </h2>
+            <h2 class="animated-text">
+              | Brand Collaboration | Fashion | Runway | shoots | Beauty |
+              Street Style | Magazines Covers | Lifestyle
+            </h2>
+          </div>
+          <div class="showcase-container">
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img1.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img2.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img3.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img4.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img5.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img6.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img7.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img8.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img9.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img10.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img11.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+            <div class="showcase-grid">
+              <img
+                src="assets/images/showcase-img12.webp"
+                alt="showcase-image"
+                class="showcase-img"
+              />
+            </div>
+          </div>
+        </section>
 
-        </main>
-       
-        <footer class="footer">
-            <h5 class="footer-title">Created with ❤️ by Nikita Manwani</h5>
-        </footer>
-        
+        <!-------Events Section---- -->
+        <section class="events-section">
+          <h2 class="section-title">Modeling Events</h2>
+          <div class="events">
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">10</div>
+                <div class="Event-day">FRI</div>
+              </div>
+              <div class="event-name">Milan Fashion</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">12</div>
+                <div class="Event-day">SUN</div>
+              </div>
+              <div class="event-name">Glamour Night</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">14</div>
+                <div class="Event-day">TUE</div>
+              </div>
+              <div class="event-name">Elegance & Grace</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">15</div>
+                <div class="Event-day">WED</div>
+              </div>
+              <div class="event-name">Summer Collection</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">18</div>
+                <div class="Event-day">SAT</div>
+              </div>
+              <div class="event-name">Runway Revolution</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">20</div>
+                <div class="Event-day">MON</div>
+              </div>
+              <div class="event-name">Traditional Fashion</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">22</div>
+                <div class="Event-day">WED</div>
+              </div>
+              <div class="event-name">Group Runways</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">24</div>
+                <div class="Event-day">FRI</div>
+              </div>
+              <div class="event-name">Ethnic Show</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">25</div>
+                <div class="Event-day">SAT</div>
+              </div>
+              <div class="event-name">Fashion Forward</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">28</div>
+                <div class="Event-day">TUE</div>
+              </div>
+              <div class="event-name">Beachwear Runway</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">30</div>
+                <div class="Event-day">THU</div>
+              </div>
+              <div class="event-name">Luxury Lingerie</div>
+            </div>
+            <div class="events-information">
+              <div class="event-day--date">
+                <div class="Event-date">31</div>
+                <div class="Event-day">FRI</div>
+              </div>
+              <div class="event-name">Classic Couture</div>
+            </div>
+          </div>
+        </section>
+
+        <!-----Fashion and Beauty Section--------->
+        <section class="fashion-beauty-section">
+          <h2 class="section-title">Fashion & Beauty</h2>
+          <div class="FB-videos-sections">
+            <video autoplay loop muted playsinline class="FB-video">
+              <source src="assets/videos/FB-video-1.webm" type="video/webm" />
+              <source src="assets/videos/FB-video-1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <video autoplay loop muted playsinline class="FB-video">
+              <source src="assets/videos/FB-video-2.webm" type="video/webm" />
+              <source src="assets/videos/FB-video-2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <video autoplay loop muted playsinline class="FB-video">
+              <source src="assets/videos/FB-video-3.webm" type="video/webm" />
+              <source src="assets/videos/FB-video-3.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <video autoplay loop muted playsinline class="FB-video">
+              <source src="assets/videos/FB-video-4.webm" type="video/webm" />
+              <source src="assets/videos/FB-video-4.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </section>
+
+        <!-- ---------Contact Us---------- -->
+        <section class="contact-container">
+          <div class="left-contact-container">
+            <h5 class="contact-title">Be the Face of Tomorrow’s Fashion</h5>
+            <p class="contact-para">
+              Want to collaborate with us? Whether you're a model, beauty
+              influencer, or fashion icon, we’d love to hear from you! Connect
+              with us and become a part of VogueOn’s exclusive world of style
+              and glamour. Fill out the form. let's connect! This is your chance
+              to be part of something extraordinary. Our team will review your
+              details and reach out to discuss exciting collaboration
+              opportunities. The future of fashion starts with you!
+            </p>
+          </div>
+          <div class="right-contact-container">
+            <form class="contact-form">
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                class="contact-field"
+              />
+              <input
+                type="text"
+                name="Contact Number"
+                placeholder="Contact number"
+                class="contact-field"
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                class="contact-field"
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                class="contact-field"
+              ></textarea>
+              <button class="contact-button">Send</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <h5 class="footer-title">Created with ❤️ by Nikita Manwani</h5>
+      </footer>
     </div>
     <script src="assets/js/script.js" defer></script>
-</body>
+  </body>
 </html>
