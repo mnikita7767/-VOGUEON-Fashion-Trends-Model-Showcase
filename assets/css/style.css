@@ -1,41 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+.nav-bar,
+.nav-bar .logo {
+  align-items: center;
+  display: flex;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Noto Sans","sans-serif";
+  font-family: "Noto Sans", "sans-serif";
 }
-html,body {
+body,
+html {
   height: 100%;
   width: 100%;
 }
-
 .main-container {
   background-color: #000;
   height: auto;
   width: 100%;
 }
-/* -------------Navigation section------------------ */
 .nav-bar {
   border-top: 3px solid #fff;
   border-bottom: 3px solid #fff;
   color: #fff;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  height:60px;
+  height: 60px;
   width: 100%;
 }
-.nav-bar  .logo {
+.nav-bar .logo {
   cursor: pointer;
   font-size: 1.8rem;
   font-family: "Abril Fatface", serif;
-  height: 100%; 
-  padding-inline:2rem;
-  display: flex;
-  align-items: center;
+  height: 100%;
+  padding-inline: 2rem;
   justify-content: center;
 }
 .nav-bar .nav-list {
@@ -43,9 +40,9 @@ html,body {
   display: flex;
   height: 100%;
   width: 85%;
-  padding-right:1rem;
+  padding-right: 1rem;
 }
-.nav-bar .nav-list .nav-item{
+.nav-bar .nav-list .nav-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,10 +56,10 @@ html,body {
   text-decoration: none;
 }
 .nav-bar .nav-list .nav-item a:hover {
-  color:#ff6ec4;
+  color: #ff6ec4;
 }
-.nav-bar .nav-list .nav-toggle  {
-  height:100%;
+.nav-bar .nav-list .nav-toggle {
+  height: 100%;
   padding-inline: 2rem;
   display: none;
 }
@@ -71,37 +68,35 @@ html,body {
   height: 25px;
   color: #fff;
 }
-/* -------------Media Queries of Navigation Section------------------ */
 @media (max-width: 1000px) {
   .nav-bar .nav-list {
     justify-content: end;
     align-items: center;
-    padding-right:0;
+    padding-right: 0;
   }
   .nav-bar .nav-list .nav-item {
-    display:none;
+    display: none;
   }
   .nav-bar .nav-list .nav-toggle {
-    display:flex;
+    display: flex;
     align-items: center;
   }
   .nav-bar .logo {
     font-size: 1.5rem;
-    padding-inline:1.5rem;
+    padding-inline: 1.5rem;
   }
 }
 .section-title {
   border-block: 2px solid #fff;
   color: #fff;
-  font-size: clamp(1.5rem,2vw + 1.4rem, 2.8rem);
-  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1.5rem, 2vw + 1.4rem, 2.8rem);
+  font-family: Montserrat, sans-serif;
   font-weight: 600;
   padding-block: 0.2rem;
   text-align: center;
   word-spacing: 4px;
   width: 100%;
 }
-/* -------------Hero section------------------ */
 .hero-section {
   position: relative;
   padding: 1.5rem;
@@ -120,8 +115,8 @@ html,body {
   object-position: center;
   aspect-ratio: 1;
 }
-/* ------------top Models Section----------------- */
-.top-model-section{
+.latest-trends-section,
+.top-model-section {
   margin-top: 2rem;
   width: 100%;
 }
@@ -131,15 +126,15 @@ html,body {
   justify-content: center;
   align-items: center;
   padding-block: 3rem;
-  padding-inline:1rem;
+  padding-inline: 1rem;
   gap: 2rem;
   width: 100%;
   height: 100%;
 }
 .top-model-image-container .model-image {
   border-radius: 50%;
-  background: linear-gradient(white, white) padding-box,
-  linear-gradient(45deg, #ff6ec4, #7873f5) border-box;
+  background: linear-gradient(white, #fff) padding-box,
+    linear-gradient(45deg, #ff6ec4, #7873f5) border-box;
   border: 8px solid transparent;
   object-fit: cover;
   object-position: top;
@@ -149,15 +144,10 @@ html,body {
 .top-model-section .model-image:hover {
   filter: drop-shadow(0px 0px 30px rgb(235, 133, 228));
 }
-/* --------Latest Trend Section----------------  */
-.latest-trends-section {
-  margin-top: 2rem;
-  width: 100%; 
-}
 .latest-trends--cards-container {
   color: #fff;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   padding-block: 2.5rem;
   padding-inline: 1rem;
@@ -165,16 +155,15 @@ html,body {
   justify-content: center;
 }
 .latest-trends--cards {
-  background: rgba(255, 255, 255, 0.1); 
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
   padding-inline: 1.5rem;
   padding-block: 1rem;
   height: 300px;
-  width: 100%; /* Adjust to grid column */
+  width: 100%;
 }
-
 .LT-cards-heading {
   font-size: 2rem;
   font-weight: 400;
@@ -183,8 +172,6 @@ html,body {
   margin-top: 1rem;
   line-height: 1.8;
 }
-
-/* -------animated Text---------- */
 .animated-text-container {
   width: 100%;
   white-space: nowrap;
@@ -196,7 +183,7 @@ html,body {
   font-size: 4rem;
   text-transform: uppercase;
   -webkit-text-stroke-color: #fff;
- -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
   color: transparent;
   font-weight: 900;
   letter-spacing: 2px;
@@ -214,16 +201,15 @@ html,body {
     transform: translateX(calc(-100% - 24px));
   }
 }
-@media (max-width:625px) {
+@media (max-width: 625px) {
   .animated-text-container .animated-text {
     font-size: 2.5rem;
   }
 }
-/* ------------Showcase grid container----------------- */
 .showcase-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 1rem;
   gap: 1rem;
   width: 100%;
@@ -234,12 +220,11 @@ html,body {
   position: relative;
 }
 .showcase-container .showcase-grid .showcase-img {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: top;
 }
-/* -------Events Section------------- */
 .events-section {
   width: 100%;
   margin-top: 2.5rem;
@@ -254,23 +239,21 @@ html,body {
   padding-inline: 1rem;
 }
 .events-information {
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 1rem;
   width: 300px;
-  animation: float 2s ease-in-out infinite;
+  animation: 2s ease-in-out infinite float;
 }
 @keyframes float {
-  0% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
     transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 .event-day--date {
@@ -279,7 +262,7 @@ html,body {
   align-items: center;
   justify-content: center;
   padding-block: 0.2rem;
-  background-color:#2C3539;
+  background-color: #2c3539;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 70px;
@@ -287,7 +270,7 @@ html,body {
 .event-day--date .Event-date {
   font-size: 2rem;
   font-weight: 700;
-  color:#fff;
+  color: #fff;
 }
 .event-day--date .Event-day {
   font-size: 1.2rem;
@@ -299,7 +282,6 @@ html,body {
   color: #fff;
   text-align: start;
 }
-/* -------Media queries of Events Section------------- */
 @media (max-width: 525px) {
   .event-day--date .Event-date {
     font-size: 1.5rem;
@@ -311,10 +293,9 @@ html,body {
     font-size: 1.2rem;
   }
 }
-/* -------Fashion and Beauty Section---------- */
 .FB-videos-sections {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   align-items: center;
   justify-content: center;
@@ -324,29 +305,31 @@ html,body {
 }
 .FB-videos-sections .FB-video {
   width: 100%;
-  height: 380px; 
-  object-fit: cover; 
+  height: 380px;
+  object-fit: cover;
   border-radius: 20px;
 }
-/* ----------Contact Us Information------------ */
+.contact-container .left-contact-container,
+.contact-container .right-contact-container {
+  width: 50%;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+}
 .contact-container {
   width: 100%;
   margin-top: 2rem;
   display: flex;
 }
 .contact-container .left-contact-container {
-  width: 50%;
-  padding-block:2rem;
-  padding-inline: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .left-contact-container .contact-title {
-  font-size: clamp(1.5rem,2vw + 1.4rem, 2.8rem);
-  font-family: "Montserrat", sans-serif;
-  font-weight:600;
+  font-size: clamp(1.5rem, 2vw + 1.4rem, 2.8rem);
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
   color: #ff6ec4;
   letter-spacing: 2px;
 }
@@ -357,29 +340,24 @@ html,body {
   color: #fff;
   line-height: 2;
 }
-.contact-container .right-contact-container {
-  width: 50%;
-  padding-block:2rem;
-  padding-inline: 2rem;
-}
 .right-contact-container .contact-form {
   width: 100%;
   font-weight: 500;
 }
-.contact-form .contact-field{
+.contact-form .contact-field {
   width: 100%;
   padding: 1.2rem;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 16px;
   background: rgba(255, 255, 255, 0.1);
-  transition: 0.3s ease-in-out; 
+  transition: 0.3s ease-in-out;
   margin-top: 1rem;
   color: #fff;
 }
 .contact-field:focus {
   border-color: #ff6ec4;
-  outline: none;
+  outline: 0;
   box-shadow: 0 0 8px #ff6ec4;
 }
 textarea.contact-field {
@@ -392,14 +370,13 @@ textarea.contact-field {
   width: 40%;
   font-size: 18px;
   background: #8f8dc3;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 700;
   transition: 0.3s ease-in-out;
 }
-/* ---------- Media queries for contact Us Information------------ */
 @media (max-width: 1100px) {
   .contact-container {
     flex-direction: column;
@@ -407,7 +384,7 @@ textarea.contact-field {
     justify-content: center;
     width: 100%;
   }
-  .contact-container  .left-contact-container {
+  .contact-container .left-contact-container {
     width: 100%;
   }
   .contact-container .right-contact-container {
@@ -418,18 +395,15 @@ textarea.contact-field {
     font-size: 1rem;
   }
 }
-
 .footer {
   margin-top: 2rem;
   background-color: #111;
   padding: 1.5rem;
 }
-
 .footer h5 {
   color: #fff;
   text-align: center;
-  font-weight: normal;
+  font-weight: 400;
   opacity: 0.8;
   font-size: 1rem;
 }
-
