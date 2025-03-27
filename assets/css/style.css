@@ -9,6 +9,11 @@
   box-sizing: border-box;
   font-family: "Noto Sans", "sans-serif";
 }
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('https://fonts.gstatic.com/s/notosans/v29/NotoSans-Regular.woff2') format('woff2');
+  font-display: swap;
+}
 body,
 html {
   height: 100%;
